@@ -1,0 +1,10 @@
+2024-11-16 15:17:40,187 - INFO - Subject 31: Total glucose values - 50068
+2024-11-16 15:17:40,187 - INFO - Subject 31: Number of predictions - 50008
+2024-11-16 15:18:05,385 - INFO - Subject 31: Prediction results plotted and saved
+2024-11-16 15:18:05,386 - INFO - Subject 31 Metrics: MSE=41.65, RMSE=6.45, MAE=4.94, R2=0.99
+2024-11-16 15:18:06,890 - INFO - Subject 31: Prediction results saved to prediction_results_Subject31.xlsx
+2024-11-16 15:18:07,122 - INFO - Subject  38: Total glucose values - 27729
+2024-11-16 15:18:07,122 - INFO - Subject  38: Number of predictions - 27669
+2024-11-16 15:18:21,175 - INFO - Subject  38: Prediction results plotted and saved
+2024-11-16 15:18:21,175 - INFO - Subject  38 Metrics: MSE=45.94, RMSE=6.78, MAE=4.85, R2=0.98
+2024-11-16 15:18:22,043 - INFO - Subject  38: Prediction results saved to prediction_results_Subject 38.xlsx
