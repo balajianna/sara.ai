@@ -1,0 +1,16 @@
+2024-11-14 10:31:58,456 - INFO - Preprocessing data for 25 subjects...
+2024-11-14 10:31:59,822 - WARNING - Error processing Basal data in data/Subject21.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:01,914 - WARNING - Error processing Basal data in data/Subject17.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:02,198 - WARNING - Error processing Basal data in data/Subject40.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:06,068 - WARNING - Error processing Basal data in data/Subject6.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:09,953 - WARNING - Error processing Basal data in data/Subject7.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:10,175 - WARNING - Error processing Basal data in data/Subject41.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:12,035 - WARNING - Error processing Basal data in data/Subject16.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:13,877 - WARNING - Error processing Basal data in data/Subject20.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:16,620 - WARNING - Error processing Basal data in data/Subject11.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:17,499 - WARNING - Error processing Basal data in data/Subject27.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:19,272 - WARNING - Error processing Basal data in data/Subject26.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:23,672 - WARNING - Error processing Basal data in data/Subject1.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:27,007 - WARNING - Error processing Basal data in data/Subject10.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:31,829 - WARNING - Error processing Basal data in data/Subject2.xlsx: Worksheet named 'Basal' not found
+2024-11-14 10:32:32,165 - WARNING - Error processing Basal data in data/Subject44.xlsx: Worksheet named 'Basal' not found

@@ -1,0 +1,44 @@
+2024-11-15 15:23:54,668 - INFO - Preprocessing data for 2 subjects...
+2024-11-15 15:23:56,436 - INFO - Data shapes - Train: (131432, 60), Val: (32858, 60)
+2024-11-15 15:23:56,436 - INFO - Configuration: {'epochs': 4, 'batch_size': 64, 'lstm_layers': [128, 64, 32], 'dropout_rate': 0.3, 'early_stopping_patience': 10, 'reduce_lr_patience': 5, 'threshold': 0.01}
+2024-11-15 15:23:56,436 - INFO - Training LSTM model...
+2024-11-15 15:23:56,436 - INFO - Training data shapes - X: (131432, 60, 1), y: (131432,)
+2024-11-15 15:23:56,436 - INFO - Validation data shapes - X: (32858, 60, 1), y: (32858,)
+2024-11-15 15:23:56,482 - INFO - LSTM model summary:
+2024-11-15 15:23:56,485 - INFO - Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm (LSTM)                          │ (None, 60, 128)             │          66,560 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization                  │ (None, 60, 128)             │             512 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 60, 128)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_1 (LSTM)                        │ (None, 60, 64)              │          49,408 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_1                │ (None, 60, 64)              │             256 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_1 (Dropout)                  │ (None, 60, 64)              │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_2 (LSTM)                        │ (None, 32)                  │          12,416 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_2                │ (None, 32)                  │             128 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense (Dense)                        │ (None, 16)                  │             528 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_1 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 129,825 (507.13 KB)
+ Trainable params: 129,377 (505.38 KB)
+ Non-trainable params: 448 (1.75 KB)
+
+2024-11-15 15:33:07,373 - INFO - Loss plot saved as lstm_loss_20241115_153307.png
+2024-11-15 15:33:07,373 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-11-15 15:33:07,386 - INFO - Model saved as lstm_model_20241115_153307.h5
+2024-11-15 15:33:07,440 - INFO - Loss plot saved as lstm_loss_20241115_153307.png
+2024-11-15 15:33:07,455 - INFO - Model saved as lstm_model_20241115_153307.keras
+2024-11-15 15:33:07,455 - INFO - Scaler saved as scaler_20241115_153307.joblib

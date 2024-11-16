@@ -1,0 +1,725 @@
+Processing data for 25 subjects in directory: data
+Processing CGM data from file: data/Subject21.xlsx
+Data processed for CGM data in data/Subject21.xlsx
+                 date  mg/dl
+0 2021-02-14 00:04:00    113
+1 2021-02-14 00:09:00    113
+2 2021-02-14 00:14:00    114
+3 2021-02-14 00:19:00    116
+4 2021-02-14 00:24:00    120
+Processing Bolus data from file: data/Subject21.xlsx
+Data processed for Bolus data in data/Subject21.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-11-22 13:44:00   1.238          0  ...                      38.0               160.0           0.000
+1 2021-11-22 14:49:00   2.015          0  ...                      38.0               160.0           1.717
+2 2021-11-22 15:54:00   1.625          0  ...                      38.0               160.0           2.853
+3 2021-11-22 16:58:00   0.536          0  ...                      38.0               160.0           2.402
+4 2021-11-22 20:24:00   1.190          0  ...                      38.0               160.0           0.000
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject21.xlsx
+cgm data is:                   date  mg/dl
+0 2021-02-14 00:04:00    113
+1 2021-02-14 00:09:00    113
+2 2021-02-14 00:14:00    114
+3 2021-02-14 00:19:00    116
+4 2021-02-14 00:24:00    120
+Processing CGM data from file: data/Subject37.xlsx
+Data processed for CGM data in data/Subject37.xlsx
+                 date       mg/dl
+0 2019-11-20 19:40:00  166.855485
+1 2019-11-20 19:35:00  163.858081
+2 2019-11-20 19:30:00  163.858081
+3 2019-11-20 19:25:00  165.856350
+4 2019-11-20 19:20:00  165.856350
+Processing Bolus data from file: data/Subject37.xlsx
+Data processed for Bolus data in data/Subject37.xlsx
+                 date  normal  carbInput  insulinCarbRatio     bgInput  recommended.carb  recommended.net
+0 2019-11-20 14:15:00    5.18       30.0               7.0  225.804428              4.29             5.18
+1 2019-11-20 12:03:00    1.20        0.0               7.0  218.810486              0.00             1.20
+2 2019-11-20 03:16:00    2.66       26.0               7.0  156.864138              2.66             2.66
+3 2019-11-20 00:33:00    3.71       26.0               7.0    0.000000              3.71             3.71
+4 2019-11-19 20:28:00    1.30        0.0               7.0  245.787121              0.00             1.30
+Processing Basal data from file: data/Subject37.xlsx
+Data processed for Basal data in data/Subject37.xlsx
+                 date  duration  rate
+0 2019-11-20 15:35:00   2100000   NaN
+1 2019-11-20 13:02:00   9197000  1.35
+2 2019-11-20 11:02:00   7213000  1.30
+3 2019-11-20 07:32:00  12620000  1.60
+4 2019-11-20 05:21:00   7812000  1.30
+cgm data is:                   date       mg/dl
+0 2019-11-20 19:40:00  166.855485
+1 2019-11-20 19:35:00  163.858081
+2 2019-11-20 19:30:00  163.858081
+3 2019-11-20 19:25:00  165.856350
+4 2019-11-20 19:20:00  165.856350
+Processing CGM data from file: data/Subject17.xlsx
+Data processed for CGM data in data/Subject17.xlsx
+                 date  mg/dl
+0 2019-12-31 12:23:00    193
+1 2019-12-31 12:28:00    185
+2 2019-12-31 12:33:00    180
+3 2019-12-31 12:38:00    174
+4 2019-12-31 12:43:00    167
+Processing Bolus data from file: data/Subject17.xlsx
+Data processed for Bolus data in data/Subject17.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-10-12 18:06:00   14.80         60  ...                      20.0               120.0           0.000
+1 2021-10-13 09:13:00    5.15          0  ...                      20.0               120.0           0.000
+2 2021-10-13 10:25:00    9.17         55  ...                      20.0               120.0           3.081
+3 2021-10-13 12:13:00    4.00         24  ...                      20.0               120.0           3.430
+4 2021-10-13 12:37:00    6.67         40  ...                      20.0               120.0           5.708
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject17.xlsx
+cgm data is:                   date  mg/dl
+0 2019-12-31 12:23:00    193
+1 2019-12-31 12:28:00    185
+2 2019-12-31 12:33:00    180
+3 2019-12-31 12:38:00    174
+4 2019-12-31 12:43:00    167
+Processing CGM data from file: data/Subject40.xlsx
+Data processed for CGM data in data/Subject40.xlsx
+                 date  mg/dl
+0 2021-12-10 09:32:00     94
+1 2021-12-10 09:37:00    101
+2 2021-12-10 09:42:00    115
+3 2021-12-10 09:47:00    123
+4 2021-12-10 09:52:00    137
+Processing Bolus data from file: data/Subject40.xlsx
+Data processed for Bolus data in data/Subject40.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-12-10 09:59:00   1.820          0  ...                      30.0               160.0           0.576
+1 2021-12-10 12:15:00   2.957          0  ...                      27.0               160.0           0.000
+2 2021-12-10 13:45:00   0.520         15  ...                      27.0               110.0           1.058
+3 2021-12-10 14:12:00   1.880         15  ...                      27.0               110.0           0.826
+4 2021-12-10 15:25:00   1.450          0  ...                      27.0               160.0           1.935
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject40.xlsx
+cgm data is:                   date  mg/dl
+0 2021-12-10 09:32:00     94
+1 2021-12-10 09:37:00    101
+2 2021-12-10 09:42:00    115
+3 2021-12-10 09:47:00    123
+4 2021-12-10 09:52:00    137
+Processing CGM data from file: data/Subject6.xlsx
+Data processed for CGM data in data/Subject6.xlsx
+                 date  mg/dl
+0 2017-11-10 10:33:00    124
+1 2017-11-10 10:38:00    130
+2 2017-11-10 10:43:00    134
+3 2017-11-10 10:48:00    123
+4 2017-11-10 10:53:00    122
+Processing Bolus data from file: data/Subject6.xlsx
+Data processed for Bolus data in data/Subject6.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-09-16 18:58:00    6.45          0  ...                       NaN                 NaN             NaN
+1 2021-09-16 22:21:00    2.30          0  ...                      45.0               120.0            1.15
+2 2021-09-17 08:44:00    2.85         21  ...                      45.0               120.0             NaN
+3 2021-09-17 12:33:00    4.15         58  ...                      45.0               120.0            0.20
+4 2021-09-17 14:07:00    0.00          0  ...                      45.0               120.0            2.60
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject6.xlsx
+cgm data is:                   date  mg/dl
+0 2017-11-10 10:33:00    124
+1 2017-11-10 10:38:00    130
+2 2017-11-10 10:43:00    134
+3 2017-11-10 10:48:00    123
+4 2017-11-10 10:53:00    122
+Processing CGM data from file: data/Subject7.xlsx
+Data processed for CGM data in data/Subject7.xlsx
+                 date  mg/dl
+0 2017-10-01 11:57:00    232
+1 2017-10-01 12:02:00    245
+2 2017-10-01 12:07:00    231
+3 2017-10-01 12:12:00    236
+4 2017-10-01 12:17:00    241
+Processing Bolus data from file: data/Subject7.xlsx
+Data processed for Bolus data in data/Subject7.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2022-02-01 12:35:00   0.175          0  ...                      40.0               160.0           2.931
+1 2022-02-01 14:44:00   0.022          0  ...                     200.0               160.0           0.656
+2 2022-02-01 15:50:00   1.023          0  ...                      40.0               160.0           0.944
+3 2022-02-01 16:16:00   0.820          0  ...                      40.0               110.0           1.808
+4 2022-02-01 18:56:00   1.368          0  ...                      40.0               160.0           0.308
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject7.xlsx
+cgm data is:                   date  mg/dl
+0 2017-10-01 11:57:00    232
+1 2017-10-01 12:02:00    245
+2 2017-10-01 12:07:00    231
+3 2017-10-01 12:12:00    236
+4 2017-10-01 12:17:00    241
+Processing CGM data from file: data/Subject41.xlsx
+Data processed for CGM data in data/Subject41.xlsx
+                 date  mg/dl
+0 2022-02-15 22:27:00    290
+1 2022-02-15 22:32:00    293
+2 2022-02-15 22:37:00    307
+3 2022-02-15 22:42:00    297
+4 2022-02-15 22:47:00    295
+Processing Bolus data from file: data/Subject41.xlsx
+Data processed for Bolus data in data/Subject41.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2022-02-16 08:26:00   0.000         62  ...                       NaN                 NaN             NaN
+1 2022-02-16 09:26:00   3.140         17  ...                      30.0               110.0           0.000
+2 2022-02-16 10:33:00   0.836          0  ...                      30.0               160.0           2.206
+3 2022-02-16 13:44:00   0.000         17  ...                       NaN                 NaN             NaN
+4 2022-02-16 13:44:00   1.800         20  ...                      30.0               110.0           0.000
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject41.xlsx
+cgm data is:                   date  mg/dl
+0 2022-02-15 22:27:00    290
+1 2022-02-15 22:32:00    293
+2 2022-02-15 22:37:00    307
+3 2022-02-15 22:42:00    297
+4 2022-02-15 22:47:00    295
+Processing CGM data from file: data/Subject16.xlsx
+Data processed for CGM data in data/Subject16.xlsx
+                 date  mg/dl
+0 2019-12-24 16:32:00    397
+1 2019-12-24 16:37:00    396
+2 2019-12-24 16:42:00    396
+3 2019-12-24 16:47:00    401
+4 2019-12-24 16:52:00    401
+Processing Bolus data from file: data/Subject16.xlsx
+Data processed for Bolus data in data/Subject16.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-07-27 22:38:00     2.8          0  ...                         0                   0            0.00
+1 2021-07-27 23:05:00     1.4          0  ...                        25                 120            2.35
+2 2021-07-28 03:33:00    12.4          0  ...                        25                 120            0.00
+3 2021-07-28 08:04:00     5.6          0  ...                        25                 120            0.00
+4 2021-07-28 09:41:00     5.3          0  ...                        20                 120            2.15
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject16.xlsx
+cgm data is:                   date  mg/dl
+0 2019-12-24 16:32:00    397
+1 2019-12-24 16:37:00    396
+2 2019-12-24 16:42:00    396
+3 2019-12-24 16:47:00    401
+4 2019-12-24 16:52:00    401
+Processing CGM data from file: data/Subject36.xlsx
+Data processed for CGM data in data/Subject36.xlsx
+                 date      mg/dl
+0 2019-06-24 13:01:00  141.87708
+1 2019-06-24 12:56:00  143.87544
+2 2019-06-24 12:51:00  147.87198
+3 2019-06-24 12:46:00  150.86934
+4 2019-06-24 12:41:00  155.86506
+Processing Bolus data from file: data/Subject36.xlsx
+Data processed for Bolus data in data/Subject36.xlsx
+                 date  normal  carbInput  insulinCarbRatio    bgInput  recommended.carb  recommended.net
+0 2019-06-24 11:30:00   2.000        0.0              15.0  262.77246             0.000            2.000
+1 2019-06-24 10:31:00   1.000        0.0              15.0  255.77838             0.000            1.000
+2 2019-06-24 09:17:00   3.575       50.0              15.0  158.86242             3.325            3.575
+3 2019-06-24 01:00:00   1.700        4.0              15.0  234.79668             0.250            1.700
+4 2019-06-23 23:00:00   3.650       41.0              15.0  189.83556             2.725            3.650
+Processing Basal data from file: data/Subject36.xlsx
+Data processed for Basal data in data/Subject36.xlsx
+                 date  duration  rate
+0 2019-06-24 13:16:00    300000   0.3
+1 2019-06-24 13:11:00    300000   0.3
+2 2019-06-24 13:06:00    300000   0.3
+3 2019-06-24 13:01:00    296000   0.9
+4 2019-06-24 12:21:00   2390000   0.0
+cgm data is:                   date      mg/dl
+0 2019-06-24 13:01:00  141.87708
+1 2019-06-24 12:56:00  143.87544
+2 2019-06-24 12:51:00  147.87198
+3 2019-06-24 12:46:00  150.86934
+4 2019-06-24 12:41:00  155.86506
+Processing CGM data from file: data/Subject20.xlsx
+Data processed for CGM data in data/Subject20.xlsx
+                 date  mg/dl
+0 2020-05-13 19:55:00    245
+1 2020-05-13 20:00:00    257
+2 2020-05-13 20:05:00    268
+3 2020-05-13 20:10:00    275
+4 2020-05-13 20:15:00    279
+Processing Bolus data from file: data/Subject20.xlsx
+Data processed for Bolus data in data/Subject20.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-04-08 07:13:00   2.891          0  ...                      20.0               160.0           0.000
+1 2021-04-08 08:18:00   1.281          0  ...                      20.0               160.0           3.196
+2 2021-04-08 10:15:00  10.000         90  ...                      20.0               110.0           1.592
+3 2021-04-08 10:19:00   3.000          0  ...                       NaN                 NaN          11.477
+4 2021-04-08 11:34:00   0.254          0  ...                      20.0               160.0           8.774
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject20.xlsx
+cgm data is:                   date  mg/dl
+0 2020-05-13 19:55:00    245
+1 2020-05-13 20:00:00    257
+2 2020-05-13 20:05:00    268
+3 2020-05-13 20:10:00    275
+4 2020-05-13 20:15:00    279
+Processing CGM data from file: data/Subject11.xlsx
+Data processed for CGM data in data/Subject11.xlsx
+                 date  mg/dl
+0 2018-06-19 16:19:00    117
+1 2018-06-19 16:24:00    136
+2 2018-06-19 16:29:00    152
+3 2018-06-19 16:34:00    164
+4 2018-06-19 16:39:00    177
+Processing Bolus data from file: data/Subject11.xlsx
+Data processed for Bolus data in data/Subject11.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-08-27 21:29:00     5.7         40  ...                        30                 100             0.0
+1 2021-08-27 23:37:00     5.0          0  ...                        30                 100             1.8
+2 2021-08-28 04:15:00     8.0          0  ...                        30                 100             0.0
+3 2021-08-28 20:06:00     5.7         40  ...                        30                 100             0.0
+4 2021-08-29 11:09:00     2.1         15  ...                        30                 100             0.0
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject11.xlsx
+cgm data is:                   date  mg/dl
+0 2018-06-19 16:19:00    117
+1 2018-06-19 16:24:00    136
+2 2018-06-19 16:29:00    152
+3 2018-06-19 16:34:00    164
+4 2018-06-19 16:39:00    177
+Processing CGM data from file: data/Subject46.xlsx
+Data processed for CGM data in data/Subject46.xlsx
+                 date       mg/dl
+0 2019-10-10 12:55:00  132.884907
+1 2019-10-10 12:50:00  139.878849
+2 2019-10-10 12:45:00  147.871926
+3 2019-10-10 12:40:00  154.865869
+4 2019-10-10 12:35:00  160.860677
+Processing Bolus data from file: data/Subject46.xlsx
+Data processed for Bolus data in data/Subject46.xlsx
+                 date  normal  carbInput  insulinCarbRatio     bgInput  recommended.carb  recommended.net
+0 2019-10-10 11:22:00    2.50         25                10  164.857215               2.5             2.50
+1 2019-10-10 09:20:00    7.23          0                12  398.654721               0.0             7.23
+2 2019-10-10 02:00:00    1.16          0                10  239.792313               0.0             1.16
+3 2019-10-10 00:05:00    3.15          0                10  235.795775               0.0             3.15
+4 2019-10-09 18:26:00    3.80         35                10  121.894426               3.5             3.80
+Processing Basal data from file: data/Subject46.xlsx
+Data processed for Basal data in data/Subject46.xlsx
+                 date  duration  rate
+0 2019-10-10 10:30:00   1199000   NaN
+1 2019-10-10 09:02:00   5259000  0.90
+2 2019-10-10 08:02:00   3604000  0.65
+3 2019-10-10 04:02:00  14416000  0.25
+4 2019-10-10 04:00:00    141000  0.75
+cgm data is:                   date       mg/dl
+0 2019-10-10 12:55:00  132.884907
+1 2019-10-10 12:50:00  139.878849
+2 2019-10-10 12:45:00  147.871926
+3 2019-10-10 12:40:00  154.865869
+4 2019-10-10 12:35:00  160.860677
+Processing CGM data from file: data/Subject50.xlsx
+Data processed for CGM data in data/Subject50.xlsx
+                 date       mg/dl
+0 2019-09-26 13:21:00  121.894426
+1 2019-09-26 13:16:00  120.895291
+2 2019-09-26 13:11:00  119.896157
+3 2019-09-26 13:06:00  134.883176
+4 2019-09-26 13:06:00  119.896157
+Processing Bolus data from file: data/Subject50.xlsx
+Data processed for Bolus data in data/Subject50.xlsx
+                 date  normal  carbInput  insulinCarbRatio     bgInput  recommended.carb  recommended.net
+0 2019-09-26 09:47:00    6.10       30.0              10.0  232.798371               3.0             6.10
+1 2019-09-26 00:18:00    0.50        NaN              10.0  291.747314               0.0             0.50
+2 2019-09-25 21:45:00   11.60       73.0               7.0  175.847696              10.4            11.60
+3 2019-09-25 15:59:00    5.30       40.0              10.0  178.845100               4.0             5.30
+4 2019-09-25 11:27:00    6.55       44.0              10.0  204.822601               4.4             6.55
+Processing Basal data from file: data/Subject50.xlsx
+Data processed for Basal data in data/Subject50.xlsx
+                 date  duration  rate
+0 2019-09-26 13:01:00   1004000   NaN
+1 2019-09-26 04:00:00  32471000   0.9
+2 2019-09-25 04:00:00  86400000   0.9
+3 2019-09-24 04:00:00  86400000   0.9
+4 2019-09-23 13:32:00  52078000   0.9
+cgm data is:                   date       mg/dl
+0 2019-09-26 13:21:00  121.894426
+1 2019-09-26 13:16:00  120.895291
+2 2019-09-26 13:11:00  119.896157
+3 2019-09-26 13:06:00  134.883176
+4 2019-09-26 13:06:00  119.896157
+Processing CGM data from file: data/Subject27.xlsx
+Data processed for CGM data in data/Subject27.xlsx
+                 date  mg/dl
+0 2021-06-11 11:44:00    398
+1 2021-06-11 11:49:00    394
+2 2021-06-11 11:54:00    389
+3 2021-06-11 11:59:00    372
+4 2021-06-11 12:04:00    366
+Processing Bolus data from file: data/Subject27.xlsx
+Data processed for Bolus data in data/Subject27.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-11-19 11:02:00   1.848          0  ...                        30                 160           0.000
+1 2021-11-19 14:07:00   1.698          0  ...                        30                 160           0.000
+2 2021-11-19 14:33:00   2.320          0  ...                        30                 110           1.046
+3 2021-11-19 14:43:00   1.080          0  ...                        30                 110           3.718
+4 2021-11-19 18:07:00   1.640          0  ...                        30                 160           0.000
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject27.xlsx
+cgm data is:                   date  mg/dl
+0 2021-06-11 11:44:00    398
+1 2021-06-11 11:49:00    394
+2 2021-06-11 11:54:00    389
+3 2021-06-11 11:59:00    372
+4 2021-06-11 12:04:00    366
+Processing CGM data from file: data/Subject31.xlsx
+Data processed for CGM data in data/Subject31.xlsx
+                 date       mg/dl
+0 2019-06-25 19:28:00  135.882311
+1 2019-06-25 19:23:00  135.882311
+2 2019-06-25 19:18:00  133.884042
+3 2019-06-25 19:13:00  132.884907
+4 2019-06-25 19:08:00  137.880580
+Processing Bolus data from file: data/Subject31.xlsx
+Data processed for Bolus data in data/Subject31.xlsx
+                 date  normal  carbInput  insulinCarbRatio     bgInput  recommended.carb  recommended.net
+0 2019-06-25 17:24:00    1.22         20                20  141.877119              1.00             1.22
+1 2019-06-25 10:30:00    0.35          7                20    0.000000              0.35             0.35
+2 2019-06-25 10:28:00    1.30          0                20  249.783660              0.00             1.30
+3 2019-06-25 00:28:00    1.17          0                20  245.787121              0.00             1.17
+4 2019-06-24 21:12:00    0.70          0                20  189.835581              0.00             0.70
+Processing Basal data from file: data/Subject31.xlsx
+Data processed for Basal data in data/Subject31.xlsx
+                 date  duration   rate
+0 2019-06-25 15:33:00    900000    NaN
+1 2019-06-25 11:02:00  16234000  0.325
+2 2019-06-25 10:55:00    454000    NaN
+3 2019-06-25 10:03:00   3109000  0.250
+4 2019-06-25 09:33:00   1802000  0.200
+cgm data is:                   date       mg/dl
+0 2019-06-25 19:28:00  135.882311
+1 2019-06-25 19:23:00  135.882311
+2 2019-06-25 19:18:00  133.884042
+3 2019-06-25 19:13:00  132.884907
+4 2019-06-25 19:08:00  137.880580
+Processing CGM data from file: data/Subject30.xlsx
+Data processed for CGM data in data/Subject30.xlsx
+                 date       mg/dl
+0 2019-11-20 18:49:00  145.873657
+1 2019-11-20 18:44:00  147.871926
+2 2019-11-20 18:39:00  146.872792
+3 2019-11-20 18:34:00  148.871061
+4 2019-11-20 18:29:00  146.872792
+Processing Bolus data from file: data/Subject30.xlsx
+Data processed for Bolus data in data/Subject30.xlsx
+                 date  normal  carbInput  insulinCarbRatio  bgInput  recommended.carb  recommended.net
+0 2019-11-21 18:45:00     3.0         30                10      0.0               3.0              3.0
+1 2019-11-20 18:30:00     1.0         10                10      0.0               1.0              1.0
+2 2019-11-20 17:09:00     1.5         15                10      0.0               1.5              1.5
+3 2019-11-20 00:37:00     2.5         25                10      0.0               2.5              2.5
+4 2019-11-19 11:50:00     2.0         20                10      0.0               2.0              2.0
+Processing Basal data from file: data/Subject30.xlsx
+Data processed for Basal data in data/Subject30.xlsx
+                 date  duration  rate
+0 2019-11-21 19:03:00   1833000   NaN
+1 2019-11-21 18:43:00   1170000  0.75
+2 2019-11-21 07:24:00  40773000   NaN
+3 2019-11-21 04:00:00  12242000  0.75
+4 2019-11-20 09:59:00  64807000  0.75
+cgm data is:                   date       mg/dl
+0 2019-11-20 18:49:00  145.873657
+1 2019-11-20 18:44:00  147.871926
+2 2019-11-20 18:39:00  146.872792
+3 2019-11-20 18:34:00  148.871061
+4 2019-11-20 18:29:00  146.872792
+Processing CGM data from file: data/Subject26.xlsx
+Data processed for CGM data in data/Subject26.xlsx
+                 date  mg/dl
+0 2021-02-25 17:28:00    145
+1 2021-02-25 17:33:00    147
+2 2021-02-25 17:38:00    154
+3 2021-02-25 17:43:00    166
+4 2021-02-25 17:48:00    169
+Processing Bolus data from file: data/Subject26.xlsx
+Data processed for Bolus data in data/Subject26.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-06-08 01:08:00     4.0        0.0  ...                    6305.0             23420.0             0.0
+1 2021-06-09 07:05:00     5.0        0.0  ...                    6305.0             23420.0             0.0
+2 2021-06-09 07:25:00     3.0        0.0  ...                    6305.0             23420.0             5.0
+3 2021-06-10 02:55:00     1.5        0.0  ...                    6305.0             23420.0             0.0
+4 2021-06-11 00:01:00     2.0        NaN  ...                       NaN                 NaN             0.0
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject26.xlsx
+cgm data is:                   date  mg/dl
+0 2021-02-25 17:28:00    145
+1 2021-02-25 17:33:00    147
+2 2021-02-25 17:38:00    154
+3 2021-02-25 17:43:00    166
+4 2021-02-25 17:48:00    169
+Processing CGM data from file: data/Subject1.xlsx
+Data processed for CGM data in data/Subject1.xlsx
+                 date  mg/dl
+0 2015-12-01 21:01:00    160
+1 2015-12-01 21:06:00    161
+2 2015-12-01 21:11:00    165
+3 2015-12-01 21:16:00    162
+4 2015-12-01 21:21:00    163
+Processing Bolus data from file: data/Subject1.xlsx
+Data processed for Bolus data in data/Subject1.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-07-18 16:48:00   1.643          0  ...                      30.0               160.0           0.000
+1 2021-07-18 17:28:00   1.540          0  ...                      30.0               110.0           2.590
+2 2021-07-18 18:00:00   3.000          0  ...                      30.0               110.0           3.885
+3 2021-07-18 18:52:00   3.000          0  ...                      30.0               110.0           4.957
+4 2021-07-18 19:15:00   5.000          0  ...                      30.0               110.0           6.943
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject1.xlsx
+cgm data is:                   date  mg/dl
+0 2015-12-01 21:01:00    160
+1 2015-12-01 21:06:00    161
+2 2015-12-01 21:11:00    165
+3 2015-12-01 21:16:00    162
+4 2015-12-01 21:21:00    163
+Processing CGM data from file: data/Subject51.xlsx
+Data processed for CGM data in data/Subject51.xlsx
+                 date      mg/dl
+0 2019-07-31 15:42:00  131.88582
+1 2019-07-31 15:37:00  136.88136
+2 2019-07-31 15:32:00  140.87790
+3 2019-07-31 15:27:00  140.87790
+4 2019-07-31 15:22:00  134.88318
+Processing Bolus data from file: data/Subject51.xlsx
+Data processed for Bolus data in data/Subject51.xlsx
+                 date  normal  carbInput  insulinCarbRatio    bgInput  recommended.carb  recommended.net
+0 2019-07-31 14:33:00    1.00       27.0              27.0  106.90740               1.0             1.00
+1 2019-07-31 11:36:00    1.50       41.0              27.0  123.89274               1.5             1.50
+2 2019-07-31 08:32:00    0.30        0.0              20.0  193.83210               0.0             0.30
+3 2019-07-31 07:53:00    0.40        0.0              20.0  198.82782               0.0             0.40
+4 2019-07-31 05:45:00    2.55       50.0              20.0  152.86752               2.5             2.55
+Processing Basal data from file: data/Subject51.xlsx
+Data processed for Basal data in data/Subject51.xlsx
+                 date  duration  rate
+0 2019-07-31 15:32:00    300000   0.6
+1 2019-07-31 15:28:00    294000   1.5
+2 2019-07-31 15:23:00    300000   1.5
+3 2019-07-31 15:18:00    300000   1.2
+4 2019-07-31 15:13:00    282000   1.2
+cgm data is:                   date      mg/dl
+0 2019-07-31 15:42:00  131.88582
+1 2019-07-31 15:37:00  136.88136
+2 2019-07-31 15:32:00  140.87790
+3 2019-07-31 15:27:00  140.87790
+4 2019-07-31 15:22:00  134.88318
+Processing CGM data from file: data/Subject47.xlsx
+Data processed for CGM data in data/Subject47.xlsx
+                 date      mg/dl
+0 2019-08-09 17:49:00  181.84248
+1 2019-08-09 17:44:00  180.84330
+2 2019-08-09 17:39:00  179.84430
+3 2019-08-09 17:34:00  181.84248
+4 2019-08-09 17:29:00  180.84330
+Processing Bolus data from file: data/Subject47.xlsx
+Data processed for Bolus data in data/Subject47.xlsx
+                 date  normal  carbInput  insulinCarbRatio    bgInput  recommended.carb  recommended.net
+0 2019-08-09 16:12:00     2.5         10               4.0        NaN              2.50              2.5
+1 2019-08-09 13:18:00     3.8         12               3.1        NaN              3.85              3.8
+2 2019-08-09 10:38:00     0.5          0               3.1  156.86406              0.00              0.5
+3 2019-08-09 00:14:00     6.8         20               3.0  152.86752              6.65              6.8
+4 2019-08-08 17:35:00     6.5         26               4.0  114.90048              6.50              6.5
+Processing Basal data from file: data/Subject47.xlsx
+Data processed for Basal data in data/Subject47.xlsx
+                 date  duration  rate
+0 2019-08-09 17:44:00    304000   9.0
+1 2019-08-09 17:40:00    285000   9.0
+2 2019-08-09 17:35:00    308000  10.5
+3 2019-08-09 17:30:00    298000  10.5
+4 2019-08-09 17:25:00    300000  10.5
+cgm data is:                   date      mg/dl
+0 2019-08-09 17:49:00  181.84248
+1 2019-08-09 17:44:00  180.84330
+2 2019-08-09 17:39:00  179.84430
+3 2019-08-09 17:34:00  181.84248
+4 2019-08-09 17:29:00  180.84330
+Processing CGM data from file: data/Subject10.xlsx
+Data processed for CGM data in data/Subject10.xlsx
+                 date  mg/dl
+0 2018-09-29 15:43:00    283
+1 2018-09-29 15:48:00    294
+2 2018-09-29 15:53:00    290
+3 2018-09-29 15:58:00    287
+4 2018-09-29 16:03:00    288
+Processing Bolus data from file: data/Subject10.xlsx
+Data processed for Bolus data in data/Subject10.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-10-25 06:28:00    11.0          0  ...                      60.0               120.0             0.0
+1 2021-10-25 15:53:00    19.0          0  ...                      45.0               120.0             0.0
+2 2021-10-25 19:06:00    20.0          0  ...                      45.0               120.0             0.0
+3 2021-10-26 10:21:00    15.0          0  ...                      45.0               120.0             0.0
+4 2021-10-27 16:20:00    15.0          0  ...                      45.0               120.0             0.0
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject10.xlsx
+cgm data is:                   date  mg/dl
+0 2018-09-29 15:43:00    283
+1 2018-09-29 15:48:00    294
+2 2018-09-29 15:53:00    290
+3 2018-09-29 15:58:00    287
+4 2018-09-29 16:03:00    288
+Processing CGM data from file: data/Subject29.xlsx
+Data processed for CGM data in data/Subject29.xlsx
+                 date       mg/dl
+0 2019-07-02 18:28:00   89.922117
+1 2019-07-02 18:23:00   93.918656
+2 2019-07-02 18:18:00   97.915195
+3 2019-07-02 18:13:00  103.910002
+4 2019-07-02 18:08:00  109.904810
+Processing Bolus data from file: data/Subject29.xlsx
+Data processed for Bolus data in data/Subject29.xlsx
+                 date  normal  carbInput  insulinCarbRatio  bgInput  recommended.carb  recommended.net
+0 2019-07-02 12:23:00     1.0        NaN               NaN      NaN               NaN              NaN
+1 2019-07-02 02:57:00     0.5        NaN               NaN      NaN               NaN              NaN
+2 2019-07-01 22:17:00     1.0        NaN               NaN      NaN               NaN              NaN
+3 2019-07-01 20:51:00     4.0        NaN               NaN      NaN               NaN              NaN
+4 2019-07-01 19:35:00     1.0        NaN               NaN      NaN               NaN              NaN
+Processing Basal data from file: data/Subject29.xlsx
+Data processed for Basal data in data/Subject29.xlsx
+                 date  duration  rate
+0 2019-07-02 17:08:00   2704000  1.20
+1 2019-07-02 16:08:00   3604000  0.75
+2 2019-07-02 15:03:00   3904000  0.60
+3 2019-07-02 14:48:00    901000  0.90
+4 2019-07-02 14:23:00   1500000  0.60
+cgm data is:                   date       mg/dl
+0 2019-07-02 18:28:00   89.922117
+1 2019-07-02 18:23:00   93.918656
+2 2019-07-02 18:18:00   97.915195
+3 2019-07-02 18:13:00  103.910002
+4 2019-07-02 18:08:00  109.904810
+Processing CGM data from file: data/Subject2.xlsx
+Data processed for CGM data in data/Subject2.xlsx
+                 date  mg/dl
+0 2015-12-04 06:41:00     95
+1 2015-12-04 06:46:00    107
+2 2015-12-04 06:51:00    110
+3 2015-12-04 06:56:00    115
+4 2015-12-04 07:01:00    127
+Processing Bolus data from file: data/Subject2.xlsx
+Data processed for Bolus data in data/Subject2.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-02-02 10:29:00   0.379          0  ...                        45                 160           1.754
+1 2021-02-02 11:35:00   1.110          0  ...                        45                 160           1.474
+2 2021-02-02 12:45:00   0.433          0  ...                        45                 160           2.990
+3 2021-02-02 15:35:00   0.867          0  ...                        45                 160           0.291
+4 2021-02-02 16:40:00   0.770          0  ...                        45                 160           1.077
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject2.xlsx
+cgm data is:                   date  mg/dl
+0 2015-12-04 06:41:00     95
+1 2015-12-04 06:46:00    107
+2 2015-12-04 06:51:00    110
+3 2015-12-04 06:56:00    115
+4 2015-12-04 07:01:00    127
+Processing CGM data from file: data/Subject52.xlsx
+Data processed for CGM data in data/Subject52.xlsx
+                 date      mg/dl
+0 2019-09-22 15:14:00  178.84512
+1 2019-09-22 15:09:00  181.84248
+2 2019-09-22 15:04:00  182.84166
+3 2019-09-22 14:59:00  181.84248
+4 2019-09-22 14:54:00  182.84166
+Processing Bolus data from file: data/Subject52.xlsx
+Data processed for Bolus data in data/Subject52.xlsx
+                 date  normal  carbInput  insulinCarbRatio    bgInput  recommended.carb  recommended.net
+0 2019-09-22 11:20:00     2.4          0                10  263.77146               0.0              2.4
+1 2019-09-22 09:26:00     1.3         13                10        NaN               1.3              1.3
+2 2019-09-21 22:49:00     4.3         30                 9  170.85204               3.3              4.3
+3 2019-09-21 18:37:00     4.8         27                10  226.80360               2.7              4.8
+4 2019-09-21 14:10:00     0.0         25                10        NaN               2.5              2.5
+Processing Basal data from file: data/Subject52.xlsx
+Data processed for Basal data in data/Subject52.xlsx
+                 date  duration  rate
+0 2019-09-22 08:00:00  14400000  1.95
+1 2019-09-22 04:00:00  14400000  1.20
+2 2019-09-22 02:00:00   7200000  1.45
+3 2019-09-21 21:00:00  18000000  1.30
+4 2019-09-21 16:00:00  18000000  1.10
+cgm data is:                   date      mg/dl
+0 2019-09-22 15:14:00  178.84512
+1 2019-09-22 15:09:00  181.84248
+2 2019-09-22 15:04:00  182.84166
+3 2019-09-22 14:59:00  181.84248
+4 2019-09-22 14:54:00  182.84166
+Processing CGM data from file: data/Subject44.xlsx
+Data processed for CGM data in data/Subject44.xlsx
+                 date  mg/dl
+0 2021-09-18 13:10:00    173
+1 2021-09-18 13:15:00    174
+2 2021-09-18 13:20:00    173
+3 2021-09-18 13:25:00    176
+4 2021-09-18 13:30:00    182
+Processing Bolus data from file: data/Subject44.xlsx
+Data processed for Bolus data in data/Subject44.xlsx
+                 date  normal  carbInput  ...  insulinSensitivityFactor  targetBloodGlucose  insulinOnBoard
+0 2021-09-07 13:21:00    0.00         46  ...                       NaN                 NaN             NaN
+1 2021-09-07 13:21:00   16.25         65  ...                      20.0               120.0           0.000
+2 2021-09-07 15:21:00    6.25         25  ...                      20.0               120.0           1.060
+3 2021-09-07 16:45:00   15.00         60  ...                      20.0               120.0           1.466
+4 2021-09-07 19:55:00    3.10          0  ...                      20.0               120.0           0.000
+
+[5 rows x 11 columns]
+Processing Basal data from file: data/Subject44.xlsx
+cgm data is:                   date  mg/dl
+0 2021-09-18 13:10:00    173
+1 2021-09-18 13:15:00    174
+2 2021-09-18 13:20:00    173
+3 2021-09-18 13:25:00    176
+4 2021-09-18 13:30:00    182
+Combined data shape: (3555970,)
+Creating sequences with time window: 60
+Number of sequences created: 3555910
+Sample sequences (X): [array([113., 113., 114., 116., 120., 123., 127., 129., 132., 134., 136.,
+       138., 139., 140., 140., 141., 141., 143., 147., 150., 152., 153.,
+       154., 156., 157., 158., 158., 158., 158., 157., 156., 154., 151.,
+       149., 146., 141., 137., 133., 128., 128., 102., 109., 102., 101.,
+       100.,  97.,  95.,  84.,  77.,  91.,  98.,  96.,  82.,  71.,  67.,
+        80.,  81.,  81.,  73.,  79.]), array([113., 114., 116., 120., 123., 127., 129., 132., 134., 136., 138.,
+       139., 140., 140., 141., 141., 143., 147., 150., 152., 153., 154.,
+       156., 157., 158., 158., 158., 158., 157., 156., 154., 151., 149.,
+       146., 141., 137., 133., 128., 128., 102., 109., 102., 101., 100.,
+        97.,  95.,  84.,  77.,  91.,  98.,  96.,  82.,  71.,  67.,  80.,
+        81.,  81.,  73.,  79.,  99.]), array([114., 116., 120., 123., 127., 129., 132., 134., 136., 138., 139.,
+       140., 140., 141., 141., 143., 147., 150., 152., 153., 154., 156.,
+       157., 158., 158., 158., 158., 157., 156., 154., 151., 149., 146.,
+       141., 137., 133., 128., 128., 102., 109., 102., 101., 100.,  97.,
+        95.,  84.,  77.,  91.,  98.,  96.,  82.,  71.,  67.,  80.,  81.,
+        81.,  73.,  79.,  99., 101.]), array([116., 120., 123., 127., 129., 132., 134., 136., 138., 139., 140.,
+       140., 141., 141., 143., 147., 150., 152., 153., 154., 156., 157.,
+       158., 158., 158., 158., 157., 156., 154., 151., 149., 146., 141.,
+       137., 133., 128., 128., 102., 109., 102., 101., 100.,  97.,  95.,
+        84.,  77.,  91.,  98.,  96.,  82.,  71.,  67.,  80.,  81.,  81.,
+        73.,  79.,  99., 101.,  99.]), array([120., 123., 127., 129., 132., 134., 136., 138., 139., 140., 140.,
+       141., 141., 143., 147., 150., 152., 153., 154., 156., 157., 158.,
+       158., 158., 158., 157., 156., 154., 151., 149., 146., 141., 137.,
+       133., 128., 128., 102., 109., 102., 101., 100.,  97.,  95.,  84.,
+        77.,  91.,  98.,  96.,  82.,  71.,  67.,  80.,  81.,  81.,  73.,
+        79.,  99., 101.,  99.,  94.])]
+X shape: (3555910, 60)
+y shape: (3555910,)
+/opt/anaconda3/envs/dia/lib/python3.12/site-packages/keras/src/layers/rnn/rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+Epoch 1/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 2729s 72ms/step - loss: 2189.8394 - mae: 22.0546 - val_loss: 172.7212 - val_mae: 10.0581 - learning_rate: 0.0010
+Epoch 2/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 3588s 95ms/step - loss: 83.8429 - mae: 6.0766 - val_loss: 62.3171 - val_mae: 5.0607 - learning_rate: 0.0010
+Epoch 3/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 4065s 108ms/step - loss: 73.2323 - mae: 5.5224 - val_loss: 61.8135 - val_mae: 4.7436 - learning_rate: 0.0010
+Epoch 4/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 4462s 118ms/step - loss: 68.9105 - mae: 5.3030 - val_loss: 58.9835 - val_mae: 4.8224 - learning_rate: 0.0010
+Epoch 1/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 4350s 115ms/step - loss: 2069.0918 - mae: 22.8769 - val_loss: 237.9454 - val_mae: 11.7801 - learning_rate: 0.0010
+Epoch 2/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 4232s 112ms/step - loss: 144.0588 - mae: 8.4111 - val_loss: 2956.3872 - val_mae: 47.9771 - learning_rate: 0.0010
+Epoch 3/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 4328s 115ms/step - loss: 138.9241 - mae: 8.0678 - val_loss: 3283.7427 - val_mae: 34.4483 - learning_rate: 0.0010
+Epoch 4/4
+37782/37782 ━━━━━━━━━━━━━━━━━━━━ 4330s 115ms/step - loss: 118.3070 - mae: 7.3292 - val_loss: 762.0858 - val_mae: 13.9601 - learning_rate: 0.0010

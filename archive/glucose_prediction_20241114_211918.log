@@ -1,0 +1,19 @@
+2024-11-14 21:19:18,586 - INFO - Preprocessing data for 25 subjects...
+2024-11-14 21:19:20,220 - WARNING - Error processing Basal data in data/Subject21.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:22,391 - WARNING - Error processing Basal data in data/Subject17.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:22,637 - WARNING - Error processing Basal data in data/Subject40.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:26,593 - WARNING - Error processing Basal data in data/Subject6.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:30,407 - WARNING - Error processing Basal data in data/Subject7.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:30,635 - WARNING - Error processing Basal data in data/Subject41.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:32,648 - WARNING - Error processing Basal data in data/Subject16.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:34,508 - WARNING - Error processing Basal data in data/Subject20.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:37,299 - WARNING - Error processing Basal data in data/Subject11.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:38,293 - WARNING - Error processing Basal data in data/Subject27.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:40,073 - WARNING - Error processing Basal data in data/Subject26.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:44,658 - WARNING - Error processing Basal data in data/Subject1.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:48,290 - WARNING - Error processing Basal data in data/Subject10.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:53,073 - WARNING - Error processing Basal data in data/Subject2.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:53,360 - WARNING - Error processing Basal data in data/Subject44.xlsx: Worksheet named 'Basal' not found
+2024-11-14 21:19:55,075 - INFO - Data shapes - Train: (2418018, 60), Val: (711182, 60), Test: (426710, 60)
+2024-11-14 21:19:55,075 - INFO - Training LSTM model...
+2024-11-14 21:19:55,075 - ERROR - An error occurred: train_lstm() missing 1 required positional argument: 'config'

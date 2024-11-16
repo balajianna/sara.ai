@@ -1,0 +1,55 @@
+2024-11-14 19:56:06,724 - INFO - Preprocessing data for 25 subjects...
+2024-11-14 19:56:08,685 - WARNING - Error processing Basal data in data/Subject21.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:11,299 - WARNING - Error processing Basal data in data/Subject17.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:11,601 - WARNING - Error processing Basal data in data/Subject40.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:16,343 - WARNING - Error processing Basal data in data/Subject6.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:20,975 - WARNING - Error processing Basal data in data/Subject7.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:21,257 - WARNING - Error processing Basal data in data/Subject41.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:23,674 - WARNING - Error processing Basal data in data/Subject16.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:25,815 - WARNING - Error processing Basal data in data/Subject20.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:29,208 - WARNING - Error processing Basal data in data/Subject11.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:30,295 - WARNING - Error processing Basal data in data/Subject27.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:32,384 - WARNING - Error processing Basal data in data/Subject26.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:37,904 - WARNING - Error processing Basal data in data/Subject1.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:41,908 - WARNING - Error processing Basal data in data/Subject10.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:47,660 - WARNING - Error processing Basal data in data/Subject2.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:48,007 - WARNING - Error processing Basal data in data/Subject44.xlsx: Worksheet named 'Basal' not found
+2024-11-14 19:56:49,693 - INFO - Data shapes - Train: (2418018, 60), Val: (711182, 60), Test: (426710, 60)
+2024-11-14 19:56:49,693 - INFO - Training lstm model...
+2024-11-14 19:56:49,693 - INFO - Training data shapes - X: (2418018, 60, 1), y: (2418018,)
+2024-11-14 19:56:49,693 - INFO - Validation data shapes - X: (711182, 60, 1), y: (711182,)
+2024-11-14 19:56:49,742 - INFO - LSTM model summary:
+2024-11-14 19:56:49,745 - INFO - Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm (LSTM)                          │ (None, 60, 128)             │          66,560 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization                  │ (None, 60, 128)             │             512 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 60, 128)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_1 (LSTM)                        │ (None, 60, 64)              │          49,408 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_1                │ (None, 60, 64)              │             256 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_1 (Dropout)                  │ (None, 60, 64)              │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_2 (LSTM)                        │ (None, 32)                  │          12,416 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_2                │ (None, 32)                  │             128 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense (Dense)                        │ (None, 16)                  │             528 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_1 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 129,825 (507.13 KB)
+ Trainable params: 129,377 (505.38 KB)
+ Non-trainable params: 448 (1.75 KB)
+
+2024-11-14 20:45:45,183 - INFO - Loss plot saved as lstm_loss.png
+2024-11-14 20:45:45,183 - ERROR - Error saving model weights: The filename must end in `.weights.h5`. Received: filepath=./checkpoints/my_checkpoint
+2024-11-14 20:45:45,184 - INFO - Evaluating ensemble predictions on test set...
