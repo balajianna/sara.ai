@@ -23,6 +23,8 @@ MODEL_PATH = config['MODEL']['keras_model_path']
 SCALER_PATH = config['MODEL']['scaler_path']
 SUBJECT_IDS = config['PREDICT']['subject_ids'].split(',')
 
+OUTPUT_DIR = config['LOG']['output_dir']
+
 # Set up logging
 logging.basicConfig(
     filename=f'glucose_prediction_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log',
@@ -69,8 +71,12 @@ def plot_results(actual, predicted, timestamps, title):
     plt.grid(True)
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(f'{title.replace(" ", "_").lower()}.png')
+
+    plot_result_filename = f'{title.replace(" ", "_").lower()}.png'
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    plt.savefig(os.path.join(OUTPUT_DIR, plot_result_filename))
     plt.close()
+    logging.info(f"Plat results  saved as {plot_result_filename}")
 
 def calculate_metrics(actual, predicted):
     mse = mean_squared_error(actual, predicted)
@@ -136,7 +142,10 @@ def batch_prediction(model, scaler, time_window, data_directory, subject_ids):
                 'Actual': actual_values,
                 'Predicted': predictions
             })
-            results_filename = f'prediction_results_Subject{subject_id}.xlsx'
+
+            filename = f'prediction_results_Subject{subject_id}.xlsx'
+            os.makedirs(OUTPUT_DIR, exist_ok=True)
+            results_filename = os.path.join(OUTPUT_DIR, filename)
             results_df.to_excel(results_filename, index=False)
             logging.info(f"Subject {subject_id}: Prediction results saved to {results_filename}")
 

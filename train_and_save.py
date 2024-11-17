@@ -12,6 +12,7 @@ import joblib
 import matplotlib.pyplot as plt
 from tensorflow import keras
 import configparser
+import os
 
 # Read configuration file
 config_file = 'config.ini'
@@ -22,6 +23,7 @@ config.read(config_file)
 DIRECTORY = config['DATA']['directory']
 TIME_WINDOW = config.getint('DATA', 'time_window')
 NUM_SUBJECTS = config.getint('DATA', 'num_subjects')
+SAMPLES_PER_SUBJECT = config.getint('DATA', 'samples_per_subject')
 VALIDATION_SPLIT = config.getfloat('DATA', 'validation_split')
 RANDOM_STATE = config.getint('DATA', 'random_state')
 
@@ -29,6 +31,7 @@ KERAS_MODEL_PATH = config['MODEL']['keras_model_path']
 SCALAR_PATH = config['MODEL']['scaler_path']
 
 LOG_PATH = config['LOG']['log_path']
+OUTPUT_DIR = config['LOG']['output_dir']
 
 # Set up logging
 logging.basicConfig(
@@ -40,8 +43,8 @@ logging.basicConfig(
 def train_and_save():
     try:
         # Step 1: Data Preprocessing
-        logging.info(f"Preprocessing data for {NUM_SUBJECTS} subjects...")
-        X, y, scaler = process_subjects(DIRECTORY, NUM_SUBJECTS, TIME_WINDOW)
+        logging.info(f"Preprocessing data for {NUM_SUBJECTS} subjects and {SAMPLES_PER_SUBJECT} samples per subject ...")
+        X, y, scaler = process_subjects(DIRECTORY, NUM_SUBJECTS, SAMPLES_PER_SUBJECT, TIME_WINDOW)
         if X is None or y is None:
             raise ValueError("Data processing failed.")
 
@@ -86,8 +89,10 @@ def plot_training_history(history):
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
     plt.legend()
+
     loss_plot_filename = f'lstm_loss_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'
-    plt.savefig(loss_plot_filename)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    plt.savefig(os.path.join(OUTPUT_DIR, loss_plot_filename))
     plt.close()
     logging.info(f"Loss plot saved as {loss_plot_filename}")
 

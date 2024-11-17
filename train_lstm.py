@@ -14,13 +14,14 @@ import configparser
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import optuna
 from model_lstm import build_lstm_model
-
+import os
+ 
 # Read configuration file
 config_file = 'config.ini'
 config = configparser.ConfigParser()
 config.read(config_file)
 
-# Load values for hyperparameter tuning from config.ini
+# For dynamic parameter seletion, load values for hyperparameter tuning from config.ini
 USE_HYPERPARAMETER_TUNING = config.getboolean('HYPER', 'use_hyperparameter_tuning')
 NUMBER_OF_SUBJECTS_FOR_TUNING = config.getint('HYPER', 'number_of_subjects_for_parameter_tuning')
 SAMPLES_PER_SUBJECT_FOR_TUNING = config.getint('HYPER', 'samples_per_subject_for_parameter_tuning')
@@ -28,7 +29,7 @@ EPOCHS_FOR_TUNING = config.getint('HYPER', 'epochs_for_parameter_tuning')
 BATCH_SIZE_FOR_TUNING = config.getint('HYPER', 'batch_size_for_parameter_tuning') 
 NUMBER_OF_TRIALS_FOR_TUNING = config.getint('HYPER', 'number_of_trials_for_parameter_tuning')
 
-#Load values for predefined model from config.ini if hyperparameter tuning is disabled
+# To select predefined model architecture and prameters, Load  config.ini
 EPOCHS = config.getint('TRAINING', 'epochs')
 BATCH_SIZE = config.getint('TRAINING', 'batch_size')
 THRESHOLD = config.getfloat('TRAINING', 'threshold')
@@ -43,6 +44,9 @@ METRICS = config.get('TRAINING', 'metrics')
 DENSE_UNIT = config.getint('TRAINING', 'dense_unit')
 ACTIVATION = config.get('TRAINING', 'activation')
 
+OUTPUT_DIR = config.get('LOG', 'output_dir')
+
+# Objective function for hyperparameter tuning
 def objective(trial, X_train, X_val, y_train, y_val):
     config = {
         'lstm_layers': [
@@ -84,7 +88,7 @@ def find_best_params(X_train, X_val, y_train, y_val, n_trials=NUMBER_OF_TRIALS_F
     plot_parameter_relationships(study)
     return study.best_params, study.best_value
 
-# Objective function for hyperparameter tuning
+# Train the LSTM model
 def train_lstm(X_train, X_val, y_train, y_val, use_hyperparameter_tuning=USE_HYPERPARAMETER_TUNING):
     logging.info(f"Training data shapes - X: {X_train.shape}, y: {y_train.shape}")
     logging.info(f"Validation data shapes - X: {X_val.shape}, y: {y_val.shape}")
@@ -158,6 +162,7 @@ def train_lstm(X_train, X_val, y_train, y_val, use_hyperparameter_tuning=USE_HYP
             plot_training_history(history)
         except Exception as e:
             logging.error(f"Error in plotting training history: {str(e)}")
+            return lstm_model, history
 
         try:
             y_pred = lstm_model.predict(X_val)
@@ -165,6 +170,7 @@ def train_lstm(X_train, X_val, y_train, y_val, use_hyperparameter_tuning=USE_HYP
             logging.info(f"Validation Metrics - MSE: {mse:.2f}, MAE: {mae:.2f}, RMSE: {rmse:.2f}")
         except Exception as e:
             logging.error(f"Error in calculating metrics: {str(e)}")
+            return lstm_model, history
 
         return lstm_model, history
 
@@ -182,13 +188,18 @@ def plot_hyperparameter_importance(study):
     plt.ylabel('Importance')
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(f'hyperparameter_importance_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
+
+    hyperparameter_importance_filename = f'hyperparameter_importance_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    plt.savefig(os.path.join(OUTPUT_DIR, hyperparameter_importance_filename))
+    logging.info(f"Hyperparameter importance plot saved as {hyperparameter_importance_filename}")   
     plt.close()
 
 # Plot the relationship between hyperparameters
 def plot_parameter_relationships(study):
     fig = optuna.visualization.plot_param_importances(study)
-    fig.write_image(f'parameter_relationships_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    fig.write_image(os.path.join(OUTPUT_DIR, f'parameter_relationships_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'))
 
 # Plot the training history
 def plot_training_history(history):
@@ -208,9 +219,12 @@ def plot_training_history(history):
     plt.xlabel('Epoch')
     plt.ylabel('MAE')
     plt.legend()
-
     plt.tight_layout()
-    plt.savefig(f'training_history_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
+
+    training_history_filename = f'training_history_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    plt.savefig(os.path.join(OUTPUT_DIR, training_history_filename))
+    logging.info(f"Training history plot saved as {training_history_filename}")
     plt.close()
 
 # Calculate metrics

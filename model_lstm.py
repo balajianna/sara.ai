@@ -1,6 +1,6 @@
 # Description: This file contains the LSTM model architecture
 # Author: Balaji Anna
-# Last Edited: 2024-Nov-16
+# Last Edited: 2024-Nov-17
 
 from tensorflow import keras
 from keras import models, layers, optimizers
