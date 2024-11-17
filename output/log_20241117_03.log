@@ -1,0 +1,457 @@
+2024-11-17 08:05:41,260 - ERROR - Error loading model or scaler: File not found: filepath=output/lstm_model_20241117_03.keras. Please ensure the file is an accessible `.keras` zip file.
+2024-11-17 08:05:41,261 - ERROR - Failed to load model or scaler. Exiting.
+2024-11-17 08:05:53,182 - ERROR - Error loading model or scaler: File not found: filepath=output/lstm_model_20241117_03.keras. Please ensure the file is an accessible `.keras` zip file.
+2024-11-17 08:05:53,182 - ERROR - Failed to load model or scaler. Exiting.
+2024-11-17 08:07:37,384 - INFO - Preprocessing data for 50 subjects and 120 samples per subject ...
+2024-11-17 08:07:37,384 - INFO - Processing data for 50 subjects and 120 samples per subjet in directory: data
+2024-11-17 08:07:37,384 - INFO - Processing file: data/Subject9.xlsx
+2024-11-17 08:07:37,384 - INFO - Processing CGM data from file: data/Subject9.xlsx
+2024-11-17 08:07:40,827 - INFO - Data processed for CGM data in data/Subject9.xlsx
+2024-11-17 08:07:40,827 - INFO - Processing file: data/Subject14.xlsx
+2024-11-17 08:07:40,827 - INFO - Processing CGM data from file: data/Subject14.xlsx
+2024-11-17 08:07:42,710 - INFO - Data processed for CGM data in data/Subject14.xlsx
+2024-11-17 08:07:42,710 - INFO - Processing file: data/Subject53.xlsx
+2024-11-17 08:07:42,710 - INFO - Processing CGM data from file: data/Subject53.xlsx
+2024-11-17 08:07:42,828 - INFO - Data processed for CGM data in data/Subject53.xlsx
+2024-11-17 08:07:42,828 - INFO - Processing file: data/Subject7.xlsx
+2024-11-17 08:07:42,829 - INFO - Processing CGM data from file: data/Subject7.xlsx
+2024-11-17 08:07:46,628 - INFO - Data processed for CGM data in data/Subject7.xlsx
+2024-11-17 08:07:46,628 - INFO - Processing file: data/Subject28.xlsx
+2024-11-17 08:07:46,628 - INFO - Processing CGM data from file: data/Subject28.xlsx
+2024-11-17 08:07:47,273 - INFO - Data processed for CGM data in data/Subject28.xlsx
+2024-11-17 08:07:47,273 - INFO - Processing file: data/Subject44.xlsx
+2024-11-17 08:07:47,273 - INFO - Processing CGM data from file: data/Subject44.xlsx
+2024-11-17 08:07:47,474 - INFO - Data processed for CGM data in data/Subject44.xlsx
+2024-11-17 08:07:47,475 - INFO - Processing file: data/Subject20.xlsx
+2024-11-17 08:07:47,475 - INFO - Processing CGM data from file: data/Subject20.xlsx
+2024-11-17 08:07:48,802 - INFO - Data processed for CGM data in data/Subject20.xlsx
+2024-11-17 08:07:48,802 - INFO - Processing file: data/Subject43.xlsx
+2024-11-17 08:07:48,802 - INFO - Processing CGM data from file: data/Subject43.xlsx
+2024-11-17 08:07:48,951 - INFO - Data processed for CGM data in data/Subject43.xlsx
+2024-11-17 08:07:48,951 - INFO - Processing file: data/Subject46.xlsx
+2024-11-17 08:07:48,951 - INFO - Processing CGM data from file: data/Subject46.xlsx
+2024-11-17 08:07:49,104 - INFO - Data processed for CGM data in data/Subject46.xlsx
+2024-11-17 08:07:49,104 - INFO - Processing file: data/Subject16.xlsx
+2024-11-17 08:07:49,104 - INFO - Processing CGM data from file: data/Subject16.xlsx
+2024-11-17 08:07:50,962 - INFO - Data processed for CGM data in data/Subject16.xlsx
+2024-11-17 08:07:50,962 - INFO - Processing file: data/Subject50.xlsx
+2024-11-17 08:07:50,962 - INFO - Processing CGM data from file: data/Subject50.xlsx
+2024-11-17 08:07:51,041 - INFO - Data processed for CGM data in data/Subject50.xlsx
+2024-11-17 08:07:51,041 - INFO - Processing file: data/Subject40.xlsx
+2024-11-17 08:07:51,041 - INFO - Processing CGM data from file: data/Subject40.xlsx
+2024-11-17 08:07:51,290 - INFO - Data processed for CGM data in data/Subject40.xlsx
+2024-11-17 08:07:51,290 - INFO - Processing file: data/Subject34.xlsx
+2024-11-17 08:07:51,291 - INFO - Processing CGM data from file: data/Subject34.xlsx
+2024-11-17 08:07:51,586 - INFO - Data processed for CGM data in data/Subject34.xlsx
+2024-11-17 08:07:51,586 - INFO - Processing file: data/Subject41.xlsx
+2024-11-17 08:07:51,586 - INFO - Processing CGM data from file: data/Subject41.xlsx
+2024-11-17 08:07:51,780 - INFO - Data processed for CGM data in data/Subject41.xlsx
+2024-11-17 08:07:51,780 - INFO - Processing file: data/Subject25.xlsx
+2024-11-17 08:07:51,780 - INFO - Processing CGM data from file: data/Subject25.xlsx
+2024-11-17 08:07:52,826 - INFO - Data processed for CGM data in data/Subject25.xlsx
+2024-11-17 08:07:52,826 - INFO - Processing file: data/Subject52.xlsx
+2024-11-17 08:07:52,826 - INFO - Processing CGM data from file: data/Subject52.xlsx
+2024-11-17 08:07:52,935 - INFO - Data processed for CGM data in data/Subject52.xlsx
+2024-11-17 08:07:52,935 - INFO - Processing file: data/Subject26.xlsx
+2024-11-17 08:07:52,935 - INFO - Processing CGM data from file: data/Subject26.xlsx
+2024-11-17 08:07:53,561 - INFO - Data processed for CGM data in data/Subject26.xlsx
+2024-11-17 08:07:53,561 - INFO - Processing file: data/Subject6.xlsx
+2024-11-17 08:07:53,561 - INFO - Processing CGM data from file: data/Subject6.xlsx
+2024-11-17 08:07:57,333 - INFO - Data processed for CGM data in data/Subject6.xlsx
+2024-11-17 08:07:57,334 - INFO - Processing file: data/Subject33.xlsx
+2024-11-17 08:07:57,334 - INFO - Processing CGM data from file: data/Subject33.xlsx
+2024-11-17 08:07:57,879 - INFO - Data processed for CGM data in data/Subject33.xlsx
+2024-11-17 08:07:57,879 - INFO - Processing file: data/Subject4.xlsx
+2024-11-17 08:07:57,879 - INFO - Processing CGM data from file: data/Subject4.xlsx
+2024-11-17 08:08:02,188 - INFO - Data processed for CGM data in data/Subject4.xlsx
+2024-11-17 08:08:02,189 - INFO - Processing file: data/Subject2.xlsx
+2024-11-17 08:08:02,189 - INFO - Processing CGM data from file: data/Subject2.xlsx
+2024-11-17 08:08:06,378 - INFO - Data processed for CGM data in data/Subject2.xlsx
+2024-11-17 08:08:06,379 - INFO - Processing file: data/Subject3.xlsx
+2024-11-17 08:08:06,379 - INFO - Processing CGM data from file: data/Subject3.xlsx
+2024-11-17 08:08:09,993 - INFO - Data processed for CGM data in data/Subject3.xlsx
+2024-11-17 08:08:09,994 - INFO - Processing file: data/Subject30.xlsx
+2024-11-17 08:08:09,994 - INFO - Processing CGM data from file: data/Subject30.xlsx
+2024-11-17 08:08:10,394 - INFO - Data processed for CGM data in data/Subject30.xlsx
+2024-11-17 08:08:10,394 - INFO - Processing file: data/Subject5.xlsx
+2024-11-17 08:08:10,394 - INFO - Processing CGM data from file: data/Subject5.xlsx
+2024-11-17 08:08:13,872 - INFO - Data processed for CGM data in data/Subject5.xlsx
+2024-11-17 08:08:13,873 - INFO - Processing file: data/Subject32.xlsx
+2024-11-17 08:08:13,873 - INFO - Processing CGM data from file: data/Subject32.xlsx
+2024-11-17 08:08:14,177 - INFO - Data processed for CGM data in data/Subject32.xlsx
+2024-11-17 08:08:14,177 - INFO - Processing file: data/Subject8.xlsx
+2024-11-17 08:08:14,177 - INFO - Processing CGM data from file: data/Subject8.xlsx
+2024-11-17 08:08:17,526 - INFO - Data processed for CGM data in data/Subject8.xlsx
+2024-11-17 08:08:17,526 - INFO - Processing file: data/Subject17.xlsx
+2024-11-17 08:08:17,526 - INFO - Processing CGM data from file: data/Subject17.xlsx
+2024-11-17 08:08:19,286 - INFO - Data processed for CGM data in data/Subject17.xlsx
+2024-11-17 08:08:19,286 - INFO - Processing file: data/Subject18.xlsx
+2024-11-17 08:08:19,286 - INFO - Processing CGM data from file: data/Subject18.xlsx
+2024-11-17 08:08:20,820 - INFO - Data processed for CGM data in data/Subject18.xlsx
+2024-11-17 08:08:20,820 - INFO - Processing file: data/Subject22.xlsx
+2024-11-17 08:08:20,820 - INFO - Processing CGM data from file: data/Subject22.xlsx
+2024-11-17 08:08:21,867 - INFO - Data processed for CGM data in data/Subject22.xlsx
+2024-11-17 08:08:21,867 - INFO - Processing file: data/Subject15.xlsx
+2024-11-17 08:08:21,867 - INFO - Processing CGM data from file: data/Subject15.xlsx
+2024-11-17 08:08:23,787 - INFO - Data processed for CGM data in data/Subject15.xlsx
+2024-11-17 08:08:23,787 - INFO - Processing file: data/Subject42.xlsx
+2024-11-17 08:08:23,787 - INFO - Processing CGM data from file: data/Subject42.xlsx
+2024-11-17 08:08:23,970 - INFO - Data processed for CGM data in data/Subject42.xlsx
+2024-11-17 08:08:23,971 - INFO - Processing file: data/Subject23.xlsx
+2024-11-17 08:08:23,971 - INFO - Processing CGM data from file: data/Subject23.xlsx
+2024-11-17 08:08:24,880 - INFO - Data processed for CGM data in data/Subject23.xlsx
+2024-11-17 08:08:24,880 - INFO - Processing file: data/Subject24.xlsx
+2024-11-17 08:08:24,880 - INFO - Processing CGM data from file: data/Subject24.xlsx
+2024-11-17 08:08:25,603 - INFO - Data processed for CGM data in data/Subject24.xlsx
+2024-11-17 08:08:25,603 - INFO - Processing file: data/Subject51.xlsx
+2024-11-17 08:08:25,603 - INFO - Processing CGM data from file: data/Subject51.xlsx
+2024-11-17 08:08:25,723 - INFO - Data processed for CGM data in data/Subject51.xlsx
+2024-11-17 08:08:25,723 - INFO - Processing file: data/Subject36.xlsx
+2024-11-17 08:08:25,723 - INFO - Processing CGM data from file: data/Subject36.xlsx
+2024-11-17 08:08:25,943 - INFO - Data processed for CGM data in data/Subject36.xlsx
+2024-11-17 08:08:25,943 - INFO - Processing file: data/Subject49.xlsx
+2024-11-17 08:08:25,943 - INFO - Processing CGM data from file: data/Subject49.xlsx
+2024-11-17 08:08:26,079 - INFO - Data processed for CGM data in data/Subject49.xlsx
+2024-11-17 08:08:26,079 - INFO - Processing file: data/Subject19.xlsx
+2024-11-17 08:08:26,079 - INFO - Processing CGM data from file: data/Subject19.xlsx
+2024-11-17 08:08:27,552 - INFO - Data processed for CGM data in data/Subject19.xlsx
+2024-11-17 08:08:27,552 - INFO - Processing file: data/Subject39.xlsx
+2024-11-17 08:08:27,552 - INFO - Processing CGM data from file: data/Subject39.xlsx
+2024-11-17 08:08:27,802 - INFO - Data processed for CGM data in data/Subject39.xlsx
+2024-11-17 08:08:27,802 - INFO - Processing file: data/Subject13.xlsx
+2024-11-17 08:08:27,802 - INFO - Processing CGM data from file: data/Subject13.xlsx
+2024-11-17 08:08:30,111 - INFO - Data processed for CGM data in data/Subject13.xlsx
+2024-11-17 08:08:30,112 - INFO - Processing file: data/Subject1.xlsx
+2024-11-17 08:08:30,112 - INFO - Processing CGM data from file: data/Subject1.xlsx
+2024-11-17 08:08:34,600 - INFO - Data processed for CGM data in data/Subject1.xlsx
+2024-11-17 08:08:34,600 - INFO - Processing file: data/Subject38.xlsx
+2024-11-17 08:08:34,600 - INFO - Processing CGM data from file: data/Subject38.xlsx
+2024-11-17 08:08:34,824 - INFO - Data processed for CGM data in data/Subject38.xlsx
+2024-11-17 08:08:34,824 - INFO - Processing file: data/Subject35.xlsx
+2024-11-17 08:08:34,824 - INFO - Processing CGM data from file: data/Subject35.xlsx
+2024-11-17 08:08:35,077 - INFO - Data processed for CGM data in data/Subject35.xlsx
+2024-11-17 08:08:35,077 - INFO - Processing file: data/Subject11.xlsx
+2024-11-17 08:08:35,077 - INFO - Processing CGM data from file: data/Subject11.xlsx
+2024-11-17 08:08:37,749 - INFO - Data processed for CGM data in data/Subject11.xlsx
+2024-11-17 08:08:37,750 - INFO - Processing file: data/Subject29.xlsx
+2024-11-17 08:08:37,750 - INFO - Processing CGM data from file: data/Subject29.xlsx
+2024-11-17 08:08:38,215 - INFO - Data processed for CGM data in data/Subject29.xlsx
+2024-11-17 08:08:38,215 - INFO - Processing file: data/Subject27.xlsx
+2024-11-17 08:08:38,215 - INFO - Processing CGM data from file: data/Subject27.xlsx
+2024-11-17 08:08:38,859 - INFO - Data processed for CGM data in data/Subject27.xlsx
+2024-11-17 08:08:38,859 - INFO - Processing file: data/Subject48.xlsx
+2024-11-17 08:08:38,859 - INFO - Processing CGM data from file: data/Subject48.xlsx
+2024-11-17 08:08:38,959 - INFO - Data processed for CGM data in data/Subject48.xlsx
+2024-11-17 08:08:38,959 - INFO - Processing file: data/Subject21.xlsx
+2024-11-17 08:08:38,959 - INFO - Processing CGM data from file: data/Subject21.xlsx
+2024-11-17 08:08:40,181 - INFO - Data processed for CGM data in data/Subject21.xlsx
+2024-11-17 08:08:40,181 - INFO - Processing file: data/Subject10.xlsx
+2024-11-17 08:08:40,181 - INFO - Processing CGM data from file: data/Subject10.xlsx
+2024-11-17 08:08:43,127 - INFO - Data processed for CGM data in data/Subject10.xlsx
+2024-11-17 08:08:43,127 - INFO - Processing file: data/Subject54.xlsx
+2024-11-17 08:08:43,127 - INFO - Processing CGM data from file: data/Subject54.xlsx
+2024-11-17 08:08:43,203 - INFO - Data processed for CGM data in data/Subject54.xlsx
+2024-11-17 08:08:43,203 - INFO - Processing file: data/Subject31.xlsx
+2024-11-17 08:08:43,203 - INFO - Processing CGM data from file: data/Subject31.xlsx
+2024-11-17 08:08:43,689 - INFO - Data processed for CGM data in data/Subject31.xlsx
+2024-11-17 08:08:43,689 - INFO - Combined data shape: (9000,)
+2024-11-17 08:08:43,689 - INFO - Normalized data shape: (9000,)
+2024-11-17 08:08:43,689 - INFO - Creating sequences with time window: 60
+2024-11-17 08:08:43,691 - INFO - Number of sequences created: 8940
+2024-11-17 08:08:43,692 - INFO - X shape: (8940, 60)
+2024-11-17 08:08:43,692 - INFO - y shape: (8940,)
+2024-11-17 08:08:43,697 - INFO - Data shapes - Train: (7152, 60), Val: (1788, 60)
+2024-11-17 08:08:43,697 - INFO - Training LSTM model...
+2024-11-17 08:08:43,697 - INFO - Training data shapes - X: (7152, 60, 1), y: (7152,)
+2024-11-17 08:08:43,697 - INFO - Validation data shapes - X: (1788, 60, 1), y: (1788,)
+2024-11-17 08:08:43,697 - INFO - Tuning hyperparameters with a subset of data...
+2024-11-17 08:08:43,743 - INFO - LSTM model summary:
+2024-11-17 08:08:43,746 - INFO - Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm (LSTM)                          │ (None, 60, 182)             │         133,952 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization                  │ (None, 60, 182)             │             728 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 60, 182)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_1 (LSTM)                        │ (None, 182)                 │         265,720 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_1                │ (None, 182)                 │             728 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense (Dense)                        │ (None, 16)                  │           2,928 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_1 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 404,073 (1.54 MB)
+ Trainable params: 403,345 (1.54 MB)
+ Non-trainable params: 728 (2.84 KB)
+
+2024-11-17 08:08:48,301 - INFO - LSTM model summary:
+2024-11-17 08:08:48,304 - INFO - Model: "sequential_1"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_2 (LSTM)                        │ (None, 60, 116)             │          54,752 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_2                │ (None, 60, 116)             │             464 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_1 (Dropout)                  │ (None, 60, 116)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_3 (LSTM)                        │ (None, 116)                 │         108,112 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_3                │ (None, 116)                 │             464 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_2 (Dense)                      │ (None, 16)                  │           1,872 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_3 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 165,681 (647.19 KB)
+ Trainable params: 165,217 (645.38 KB)
+ Non-trainable params: 464 (1.81 KB)
+
+2024-11-17 08:08:52,198 - INFO - LSTM model summary:
+2024-11-17 08:08:52,201 - INFO - Model: "sequential_2"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_4 (LSTM)                        │ (None, 60, 67)              │          18,492 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_4                │ (None, 60, 67)              │             268 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_2 (Dropout)                  │ (None, 60, 67)              │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_5 (LSTM)                        │ (None, 60, 65)              │          34,580 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_5                │ (None, 60, 65)              │             260 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_3 (Dropout)                  │ (None, 60, 65)              │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_6 (LSTM)                        │ (None, 133)                 │         105,868 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_6                │ (None, 133)                 │             532 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_4 (Dense)                      │ (None, 16)                  │           2,144 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_5 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 162,161 (633.44 KB)
+ Trainable params: 161,631 (631.37 KB)
+ Non-trainable params: 530 (2.07 KB)
+
+2024-11-17 08:08:56,525 - INFO - LSTM model summary:
+2024-11-17 08:08:56,527 - INFO - Model: "sequential_3"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_7 (LSTM)                        │ (None, 60, 47)              │           9,212 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_7                │ (None, 60, 47)              │             188 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_4 (Dropout)                  │ (None, 60, 47)              │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_8 (LSTM)                        │ (None, 219)                 │         233,892 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_8                │ (None, 219)                 │             876 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_6 (Dense)                      │ (None, 16)                  │           3,520 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_7 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 247,705 (967.60 KB)
+ Trainable params: 247,173 (965.52 KB)
+ Non-trainable params: 532 (2.08 KB)
+
+2024-11-17 08:09:00,735 - INFO - LSTM model summary:
+2024-11-17 08:09:00,737 - INFO - Model: "sequential_4"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_9 (LSTM)                        │ (None, 60, 133)             │          71,820 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_9                │ (None, 60, 133)             │             532 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_5 (Dropout)                  │ (None, 60, 133)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_10 (LSTM)                       │ (None, 133)                 │         142,044 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_10               │ (None, 133)                 │             532 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_8 (Dense)                      │ (None, 16)                  │           2,144 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_9 (Dense)                      │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 217,089 (848.00 KB)
+ Trainable params: 216,557 (845.93 KB)
+ Non-trainable params: 532 (2.08 KB)
+
+2024-11-17 08:09:05,306 - INFO - LSTM model summary:
+2024-11-17 08:09:05,308 - INFO - Model: "sequential_5"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_11 (LSTM)                       │ (None, 60, 214)             │         184,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_11               │ (None, 60, 214)             │             856 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_6 (Dropout)                  │ (None, 60, 214)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_12 (LSTM)                       │ (None, 234)                 │         420,264 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_12               │ (None, 234)                 │             936 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_10 (Dense)                     │ (None, 16)                  │           3,760 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_11 (Dense)                     │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 610,729 (2.33 MB)
+ Trainable params: 609,833 (2.33 MB)
+ Non-trainable params: 896 (3.50 KB)
+
+2024-11-17 08:09:11,834 - INFO - LSTM model summary:
+2024-11-17 08:09:11,836 - INFO - Model: "sequential_6"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_13 (LSTM)                       │ (None, 60, 121)             │          59,532 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_13               │ (None, 60, 121)             │             484 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_7 (Dropout)                  │ (None, 60, 121)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_14 (LSTM)                       │ (None, 194)                 │         245,216 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_14               │ (None, 194)                 │             776 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_12 (Dense)                     │ (None, 16)                  │           3,120 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_13 (Dense)                     │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 309,145 (1.18 MB)
+ Trainable params: 308,515 (1.18 MB)
+ Non-trainable params: 630 (2.46 KB)
+
+2024-11-17 08:09:16,838 - INFO - LSTM model summary:
+2024-11-17 08:09:16,841 - INFO - Model: "sequential_7"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_15 (LSTM)                       │ (None, 60, 229)             │         211,596 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_15               │ (None, 60, 229)             │             916 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_8 (Dropout)                  │ (None, 60, 229)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_16 (LSTM)                       │ (None, 229)                 │         420,444 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_16               │ (None, 229)                 │             916 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_14 (Dense)                     │ (None, 16)                  │           3,680 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_15 (Dense)                     │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 637,569 (2.43 MB)
+ Trainable params: 636,653 (2.43 MB)
+ Non-trainable params: 916 (3.58 KB)
+
+2024-11-17 08:09:21,899 - INFO - LSTM model summary:
+2024-11-17 08:09:21,901 - INFO - Model: "sequential_8"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_17 (LSTM)                       │ (None, 60, 187)             │         141,372 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_17               │ (None, 60, 187)             │             748 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_9 (Dropout)                  │ (None, 60, 187)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_18 (LSTM)                       │ (None, 251)                 │         440,756 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_18               │ (None, 251)                 │           1,004 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_16 (Dense)                     │ (None, 16)                  │           4,032 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_17 (Dense)                     │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 587,929 (2.24 MB)
+ Trainable params: 587,053 (2.24 MB)
+ Non-trainable params: 876 (3.42 KB)
+
+2024-11-17 08:09:27,953 - INFO - LSTM model summary:
+2024-11-17 08:09:27,955 - INFO - Model: "sequential_9"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_19 (LSTM)                       │ (None, 60, 77)              │          24,332 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_19               │ (None, 60, 77)              │             308 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_10 (Dropout)                 │ (None, 60, 77)              │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_20 (LSTM)                       │ (None, 77)                  │          47,740 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_20               │ (None, 77)                  │             308 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_18 (Dense)                     │ (None, 16)                  │           1,248 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_19 (Dense)                     │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 73,953 (288.88 KB)
+ Trainable params: 73,645 (287.68 KB)
+ Non-trainable params: 308 (1.20 KB)
+
+2024-11-17 08:09:31,347 - INFO - Hyperparameter importance plot saved as hyperparameter_importance_20241117_080931.png
+2024-11-17 08:09:32,300 - INFO - Best hyperparameters: {'n_lstm_layers': 2, 'lstm_units_0': 187, 'lstm_units_1': 251, 'dropout_rate': 0.17244027056672664, 'learning_rate': 0.005820022679950624, 'batch_size': 64}
+2024-11-17 08:09:32,300 - INFO - Best validation loss: 0.031209910288453102
+2024-11-17 08:09:32,344 - INFO - LSTM model summary:
+2024-11-17 08:09:32,347 - INFO - Model: "sequential_10"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ lstm_21 (LSTM)                       │ (None, 60, 187)             │         141,372 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_21               │ (None, 60, 187)             │             748 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_11 (Dropout)                 │ (None, 60, 187)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ lstm_22 (LSTM)                       │ (None, 251)                 │         440,756 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_22               │ (None, 251)                 │           1,004 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_20 (Dense)                     │ (None, 16)                  │           4,032 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_21 (Dense)                     │ (None, 1)                   │              17 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 587,929 (2.24 MB)
+ Trainable params: 587,053 (2.24 MB)
+ Non-trainable params: 876 (3.42 KB)
+
+2024-11-17 08:20:38,584 - INFO - Training history plot saved as training_history_20241117_082038.png
+2024-11-17 08:20:40,631 - INFO - Validation Metrics - MSE: 0.00, MAE: 0.01, RMSE: 0.03
+2024-11-17 08:20:40,687 - INFO - Loss plot saved as lstm_loss_20241117_082040.png
+2024-11-17 08:20:40,707 - INFO - Model saved as output/lstm_model_20241117_03.keras
+2024-11-17 08:20:40,708 - INFO - Scaler saved as output/scaler_20241117_03.joblib
